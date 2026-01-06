@@ -38,7 +38,12 @@ class ContactBook extends Component {
       phone: ""
     });
   };
+  deleteContact = (id) =>{
+    this.setState((prevState) =>({
+        contacts: prevState.contacts.filter((y) => y.id !==id),
 
+  }));
+  };
   toggleView = (id) => {
     const updatedContacts = this.state.contacts.map((c) =>
       c.id === id ? { ...c, visible: !c.visible } : c
