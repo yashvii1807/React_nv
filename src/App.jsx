@@ -4,7 +4,7 @@ import CartComponent from "./CEAB/cartcomponent";
 import class_state from "./CEAB/class_state"; 
 import StringState from "./CEAB/string_state";
 import RenderCond from "./render_cond";
-
+import ContactBook from "./CEAB/contactbook";
 function App() {
  
   return (
@@ -19,7 +19,8 @@ function App() {
         {/* <StringState/> */}
         {/* <ClassState /> */}
 
-        <RenderCond/>
+        {/* <RenderCond/> */}
+        <ContactBook />
     </>
   );
 }
