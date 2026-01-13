@@ -1,10 +1,21 @@
-import Todolist from "./todolist"
+// import Todolist from "./todolist"
+// function App(){
+//     return(
+//         <>
+//        < Todolist />
+//         </>
+//     )
+    
+// }
+// export default App;
+
+import Calculator from "./calculator"
 function App(){
     return(
         <>
-       < Todolist />
+       < Calculator />
         </>
-    )
-    
+    );
+
 }
 export default App;
