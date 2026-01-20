@@ -9,13 +9,13 @@
 // }
 // export default App;
 
-import Calculator from "./calculator"
-function App(){
-    return(
-        <>
-       < Calculator />
-        </>
-    );
+// import Calculator from "./calculator"
+// function App(){
+//     return(
+//         <>
+//        < Calculator />
+//         </>
+//     );
 
-}
+// }
 export default App;
