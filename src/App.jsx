@@ -7,8 +7,9 @@
 // import ContactBook from "./CEAB/contactbook";
 //import MultiPart from "./CEAB/multipart";
 // import Display123 from "./1912026/practice";
-import Hook1Example from "./CEAB/hook1";
-import hook1 from "./CEAB/hook1";
+//import Hook1Example from "./CEAB/hook1";
+// import Hook2Example from "./CEAB/hook2";
+import UseState3 from "./CEAB/useState3";     
 function App() {
  
 //   return (
@@ -39,7 +40,9 @@ function App() {
     return (
     <>
     {/* <Display123 /> */}
-      <Hook1Example />
+      {/* <Hook1Example /> */}
+      {/* <Hook2Example /> */}
+      <UseState3 />
     </>
     );
 }
